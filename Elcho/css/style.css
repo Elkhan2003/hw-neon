@@ -118,9 +118,10 @@ body {
 /* ! 1 section */
 .block__one {
 	background: url(../img/bg.jpg) center no-repeat;
+	box-shadow: inset 0px 0px 100px 70px rgba(128, 0, 128, 0.658), 0px 0px 50px 30px purple;
 	background-size: cover;
 
-	height: 700px;
+	height: 850px;
 
 	margin-bottom: 30px;
 }
@@ -130,6 +131,9 @@ body {
 }
 
 .block__one__title {
+	position: relative;
+	top: 100px;
+
 	display: flex;
 	text-align: center;
 	justify-content: center;
@@ -235,7 +239,7 @@ body {
 .footer {
 	margin-top: auto;
 	background: rgba(128, 0, 128, 0.658);
-	border-top: 5px solid rgba(255, 0, 0, 0.253);
+	box-shadow: 0px 0px 20px 10px purple;
 
 	padding: 20px 0;
 }
