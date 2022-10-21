@@ -44,8 +44,7 @@
   }
 }
 
-
-@media (max-width: 730px) {
+@media(max-width: 730px) {
   .block__two__content {
     justify-content: center;
   }
